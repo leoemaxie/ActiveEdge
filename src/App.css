@@ -36,3 +36,16 @@
     transform: rotate(360deg);
   }
 }
+
+.Background-image {
+  background-color: #dddddd;
+  margin-top: 0; 
+  margin-bottom: 0; 
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.InnerBackground {
+  background-color: #ffffff; 
+  padding: 20px; 
+}
