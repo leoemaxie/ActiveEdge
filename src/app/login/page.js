@@ -1,6 +1,6 @@
 "use client";
 
-import { authenticate } from "@/src/lib/actions";
+import { authenticate } from "@/app/lib/actions";
 import { useFormState, useFormStatus } from "react-dom";
 
 export default function Page() {

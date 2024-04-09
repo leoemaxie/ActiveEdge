@@ -1,25 +1,19 @@
-import "./App.css";
-import { Route, Routes } from "react-router-dom";
-import { Box } from "@mui/material";
-import Navbar from "./components/Navbar";
-import Home from "./pages/Home";
-import Excercise from "./pages/Excercise";
-import Footer from "./components/Footer";
+"use client";
 
-export default function App() {
+import { Box } from "@mui/material";
+import Navbar from "../components/Navbar";
+import Footer from "../components/Footer";
+
+export default function Page() {
   return (
-    <div className="Background-image">
+    <div className="bg-[#dddddd] my-0 px-5">
       <Box
-        className="InnerBackground"
+        className="bg-white p-5"
         width="400px"
         sx={{ width: { xl: "1488px" } }}
         m="auto"
       >
         <Navbar />
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/excercise/:id" element={<Excercise />} />
-        </Routes>
         <Footer />
       </Box>
     </div>
